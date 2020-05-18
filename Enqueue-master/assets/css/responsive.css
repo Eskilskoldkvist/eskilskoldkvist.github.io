@@ -1,0 +1,50 @@
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article, aside {
+  flex-basis: 100%;
+}
+
+@media (min-width: 576px) {
+  article {
+    flex: 3;
+  }
+  aside {
+    flex: 3;
+  }
+}
+
+@media (min-width: 768px) {
+  article {
+    flex: 7;
+  }
+  aside {
+    flex: 3;
+  }
+}
+
+@media (min-width: 992px) {
+  article {
+    flex: 1.5;
+  }
+  aside {
+    flex: 0.5;
+  }
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  background: #427CEE;
+  color: #fff;
+  padding: 15px;
+  font-weight: 300;
+  font-size: 20px;
+}
