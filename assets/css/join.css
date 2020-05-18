@@ -1,0 +1,132 @@
+.join {
+  background: #EFEFF4;
+  display: table;
+  width: 100%;
+}
+
+.join .join-content {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 5px;
+}
+
+.join-box {
+  max-width: 400px;
+  border-radius: 10px;
+  background: #fff;
+  margin: auto;
+  -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.31);
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.31);
+  text-align: center;
+}
+
+.join-box .content {
+  padding: 15px;
+}
+
+.join-box .content h1 {
+  padding: 0px;
+  font-weight: 300;
+}
+
+.join-box .content .smart-code-field {
+  margin: auto;
+}
+
+.join-box .content .smart-code-field input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #EFEFF4;
+  outline: none;
+  text-align: center;
+}
+
+.join-box .content .smart-code-field input.c-field {
+  font-size: 40px;
+  height: 60px;
+}
+
+.submit-btn {
+  padding: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+  background: #427CEE;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  -webkit-appearance: none;
+}
+
+.submit-btn:active {
+  border: none;
+}
+
+.submit-btn:focus {
+  border: none;
+}
+
+.form-group {
+  width: 100%;
+  padding-bottom: 15px;
+  text-align: left;
+}
+
+.form-group .error-box {
+  background: #A73122;
+  border: 1px solid #A73122;
+  font-size: 12px;
+  border-radius: 0px 0px 5px 5px;
+  padding: 10px;
+  color: #fff;
+  display: none;
+}
+
+.form-group .error-box.show {
+  display: block;
+}
+
+.form-group label {
+  display: block;
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+
+.form-group input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #EFEFF4;
+  outline: none;
+  font-size: 15px;
+}
+
+.form-group input.error {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.form-group input:focus {
+  border: 1px solid #363E4A;
+}
+
+.form-group .submit-btn {
+  padding: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+  background: #427CEE;
+  color: #fff;
+  border: none;
+}
+
+.form-group .submit-btn:active {
+  border: none;
+}
+
+.form-group .submit-btn:focus {
+  border: none;
+}

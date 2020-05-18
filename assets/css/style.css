@@ -1,0 +1,92 @@
+
+body{
+  font-family: 'Roboto', sans-serif;
+
+}
+a.reglog{
+  color: #000;
+  text-decoration: none;
+
+}
+.logobody{
+    display: block;
+      padding-bottom: 20px;
+      margin: auto;
+      max-width: 201px;
+}
+
+a#leavelink{
+  cursor: pointer;
+}
+.headerFrame{
+  height: 53px;
+  background-color: #427CEE;
+  border-bottom: 1px solid #bebebe;
+  -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.31);
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.31);
+  width: 100%;
+  padding: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -moz-border-radius-bottomright: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+
+
+div.form-div{
+  padding: 10px;
+  margin: 10px;
+  width: 50%;
+  margin: auto;
+  margin-top: 10%;
+
+}
+
+div.form-div input[type="text"]{
+  padding: 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  width: 100%;
+  border-style: none;
+  background-color: #f8f8f8;
+
+
+
+}
+
+div.form-div textarea{
+  border-style: none;
+  background-color: #f8f8f8;
+
+  padding: 12px;
+  margin-top: 10px;
+  box-sizing: border-box;
+
+  width: 100%;
+   resize: none;
+}
+
+div.submit-div{
+
+  padding: 12px;
+  padding-left: 0px;
+  width: 100%;
+}
+
+div.submit-div button{
+  font-weight: 600;
+  border-style: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #427CEE;
+    color: #fff;
+    padding: 5px 10px 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    line-height: 20px;
+    cursor: pointer;
+}

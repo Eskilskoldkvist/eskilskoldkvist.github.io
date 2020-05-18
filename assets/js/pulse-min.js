@@ -1,0 +1,1 @@
+$(document).ready(function(){function n(){var n=$(".pos").height();$(".pos").css("width",n+"px")}setInterval(function(){$("#pos").toggleClass("pulse infinite")},2e3),n(),$(window).resize(function(){n()})});

@@ -1,0 +1,119 @@
+body {
+  background: #EFEFF4;
+}
+
+.page-content {
+  width: 100%;
+}
+
+.place {
+  width: 100%;
+  text-align: center;
+  background: #427CEE;
+  color: #fff;
+}
+
+.place.inSession{
+  background: #459A5F;
+}
+
+.place.completed{
+  background: #B6B4B6;
+}
+
+.place .top {
+  padding: 15px;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.place .content {
+  padding: 60px;
+}
+
+.place .content .pos {
+  color: #427CEE;
+  font-weight: 900;
+  font-size: 120px;
+  background: #fff;
+  display: inline-block;
+  padding: 30px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 3px 38px 0px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 0px 3px 38px 0px rgba(0, 0, 0, 0.31);
+  box-shadow: 0px 3px 38px 0px rgba(0, 0, 0, 0.31);
+}
+
+.place .content .inSession {
+  font-size: 50px;
+  color: #459A5F;
+  text-transform: uppercase;
+}
+
+.place .content .completed {
+  font-size: 30px;
+  width: auto;
+  color: #B6B4B6;
+  text-transform: uppercase;
+}
+
+.place .content .about {
+  padding-top: 55px;
+  font-size: 20px;
+}
+
+.actions-pane {
+  border-left: 1px solid #B6B4B6;
+  border-right: 1px solid #B6B4B6;
+  max-width: 600px;
+  margin: auto;
+  height: 500px;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .actions-pane {
+    border-left: 0px solid #B6B4B6;
+    border-right: 0px solid #B6B4B6;
+  }
+}
+
+.actions-pane .section {
+  padding-bottom: 20px;
+}
+
+.actions-pane .section .title {
+  padding: 15px;
+  font-weight: 300;
+  padding-bottom: 15px;
+  color: #5B5C61;
+}
+
+.actions-pane .section .content {
+  padding: 15px;
+  background: #fff;
+  border-top: 1px solid #B6B4B6;
+}
+
+.actions-pane .section .content.bottom {
+  border-bottom: 1px solid #B6B4B6;
+}
+
+.actions-pane .section .action-btn {
+  padding: 15px;
+  background: #fff;
+  border-top: 1px solid #B6B4B6;
+  border-bottom: 1px solid #B6B4B6;
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.actions-pane .section .action-btn:hover {
+  color: #427CEE;
+  text-decoration: none;
+}
+
+.actions-pane .section .action-btn.danger {
+  color: #DA5040;
+}
